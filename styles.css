@@ -11,6 +11,14 @@ body {
     color: red;
   }
 }
+/* @-webkit-keyframes myAnimation {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+} */
 
 /* Use animation */
 button {
@@ -21,5 +29,5 @@ button {
 
 button:hover {
   animation: myAnimation 1s;
-  -webkit-animation: myAnimation 1s;
+  /* -webkit-animation: myAnimation 1s; */
 }
