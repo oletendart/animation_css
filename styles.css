@@ -9,6 +9,7 @@ body {
   }
   to {
     color: red;
+    transform: scale(1.1);
   }
 }
 /* @-webkit-keyframes myAnimation {
@@ -28,6 +29,6 @@ button {
 }
 
 button:hover {
-  animation: myAnimation 1s;
+  animation: myAnimation 1s infinite;
   /* -webkit-animation: myAnimation 1s; */
 }
