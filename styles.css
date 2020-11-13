@@ -4,10 +4,16 @@ body {
 
 /* Create animation */
 @keyframes myAnimation {
-  from {
+  0% {
     color: black;
   }
-  to {
+  10% {
+    color: purple;
+  }
+  90% {
+    color: green;
+  }
+  100% {
     color: red;
     transform: scale(1.1);
   }
