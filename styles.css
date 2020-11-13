@@ -2,15 +2,6 @@ body {
   padding: 50px;
 }
 
-button {
-  padding: 15px 30px;
-  border: 0;
-  font-size: 1.5em;
-}
-
-button:hover {
-}
-
 /* Create animation */
 @keyframes myAnimation {
   from {
@@ -22,3 +13,13 @@ button:hover {
 }
 
 /* Use animation */
+button {
+  padding: 15px 30px;
+  border: 0;
+  font-size: 1.5em;
+}
+
+button:hover {
+  animation: myAnimation 1s;
+  -webkit-animation: myAnimation 1s;
+}
