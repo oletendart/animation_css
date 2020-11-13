@@ -29,6 +29,6 @@ button {
 }
 
 button:hover {
-  animation: myAnimation 1s infinite;
+  animation: myAnimation 1s infinite alternate;
   /* -webkit-animation: myAnimation 1s; */
 }
